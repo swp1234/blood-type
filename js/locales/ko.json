@@ -1,0 +1,54 @@
+{
+  "title": "혈액형 성격 분석",
+  "app": {
+    "title": "혈액형 성격 분석",
+    "subtitle": "당신의 숨겨진 성격을 발견하세요"
+  },
+  "selection": {
+    "title": "혈액형을 선택하세요",
+    "desc": "당신의 혈액형을 선택하여 성격 분석을 시작하세요"
+  },
+  "personality": {
+    "summary": "성격 분석",
+    "strengths": "강점",
+    "weaknesses": "약점",
+    "loveStyle": "연애 스타일",
+    "careerFit": "직업 적성",
+    "stress": "스트레스 해소"
+  },
+  "tabs": {
+    "personality": "성격",
+    "compatibility": "궁합",
+    "famous": "유명인",
+    "wellness": "건강",
+    "distribution": "분포"
+  },
+  "compatibility": {
+    "title": "혈액형 궁합표",
+    "legend": "평점 척도: 1~5개 별"
+  },
+  "famous": {
+    "title": "유명인"
+  },
+  "wellness": {
+    "title": "건강 & 웰니스",
+    "disclaimer": "*교육 목적입니다. 의료 조언은 전문가와 상담하세요."
+  },
+  "distribution": {
+    "title": "혈액형 분포"
+  },
+  "share": {
+    "title": "결과 공유하기",
+    "button": "결과 공유",
+    "download": "카드 다운로드"
+  },
+  "premium": {
+    "title": "깊이 있는 분석 해금",
+    "message": "광고를 시청하고 AI 분석을 확인하세요",
+    "watchAd": "광고 시청 (30초)",
+    "deepAnalysis": "AI 심층 분석 (광고 시청)"
+  },
+  "common": {
+    "back": "뒤로"
+  }
+}

@@ -1,0 +1,33 @@
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="192" height="192" fill="#0f0f23"/>
+
+  <!-- Outer Circle -->
+  <circle cx="96" cy="96" r="85" fill="#e74c3c" opacity="0.2" stroke="#e74c3c" stroke-width="2"/>
+
+  <!-- Blood Drop Shape -->
+  <g transform="translate(96, 76)">
+    <!-- Drop outline -->
+    <path d="M 0 -35 C -15 -20 -25 -5 -25 10 C -25 30 -15 45 0 50 C 15 45 25 30 25 10 C 25 -5 15 -20 0 -35"
+          fill="#e74c3c" stroke="#c0392b" stroke-width="1.5"/>
+
+    <!-- Highlight -->
+    <ellipse cx="-8" cy="-10" rx="8" ry="12" fill="#ffffff" opacity="0.3"/>
+  </g>
+
+  <!-- Text: A, B, O, AB -->
+  <g font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#ffffff">
+    <!-- A -->
+    <text x="50" y="120" text-anchor="middle" opacity="0.7">A</text>
+    <!-- B -->
+    <text x="96" y="120" text-anchor="middle" opacity="0.7">B</text>
+    <!-- O -->
+    <text x="142" y="120" text-anchor="middle" opacity="0.7">O</text>
+    <!-- AB (centered below) -->
+    <text x="96" y="150" text-anchor="middle" opacity="0.7">AB</text>
+  </g>
+
+  <!-- Corner accent -->
+  <circle cx="24" cy="24" r="8" fill="#e74c3c" opacity="0.4"/>
+  <circle cx="168" cy="24" r="8" fill="#e74c3c" opacity="0.4"/>
+</svg>

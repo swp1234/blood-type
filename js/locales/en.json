@@ -1,0 +1,54 @@
+{
+  "title": "Blood Type Personality Analysis",
+  "app": {
+    "title": "Blood Type Personality",
+    "subtitle": "Discover Your Hidden Personality"
+  },
+  "selection": {
+    "title": "Select Your Blood Type",
+    "desc": "Choose your blood type to begin your personality analysis"
+  },
+  "personality": {
+    "summary": "Personality Analysis",
+    "strengths": "Strengths",
+    "weaknesses": "Weaknesses",
+    "loveStyle": "Love Style",
+    "careerFit": "Career Fit",
+    "stress": "Stress Relief"
+  },
+  "tabs": {
+    "personality": "Personality",
+    "compatibility": "Compatibility",
+    "famous": "Famous People",
+    "wellness": "Wellness",
+    "distribution": "Distribution"
+  },
+  "compatibility": {
+    "title": "Compatibility Chart",
+    "legend": "Rating scale: 1-5 stars"
+  },
+  "famous": {
+    "title": "Famous People"
+  },
+  "wellness": {
+    "title": "Health & Wellness",
+    "disclaimer": "*This is for educational purposes. Consult healthcare professionals for medical advice."
+  },
+  "distribution": {
+    "title": "Blood Type Distribution"
+  },
+  "share": {
+    "title": "Share Your Results",
+    "button": "Share Results",
+    "download": "Download Card"
+  },
+  "premium": {
+    "title": "Unlock Deep Analysis",
+    "message": "Watch an ad to see your AI-powered analysis",
+    "watchAd": "Watch Ad (30 sec)",
+    "deepAnalysis": "AI Deep Analysis (Watch Ad)"
+  },
+  "common": {
+    "back": "Back"
+  }
+}

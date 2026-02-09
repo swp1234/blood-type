@@ -1,0 +1,54 @@
+{
+  "title": "Análise de Personalidade por Tipo Sanguíneo",
+  "app": {
+    "title": "Análise de Personalidade",
+    "subtitle": "Descubra Sua Personalidade Oculta"
+  },
+  "selection": {
+    "title": "Selecione Seu Tipo Sanguíneo",
+    "desc": "Escolha seu tipo de sangue para começar sua análise de personalidade"
+  },
+  "personality": {
+    "summary": "Análise de Personalidade",
+    "strengths": "Pontos Fortes",
+    "weaknesses": "Fraquezas",
+    "loveStyle": "Estilo de Amor",
+    "careerFit": "Adequação Profissional",
+    "stress": "Alívio do Estresse"
+  },
+  "tabs": {
+    "personality": "Personalidade",
+    "compatibility": "Compatibilidade",
+    "famous": "Pessoas Famosas",
+    "wellness": "Bem-estar",
+    "distribution": "Distribuição"
+  },
+  "compatibility": {
+    "title": "Tabela de Compatibilidade",
+    "legend": "Escala de classificação: 1-5 estrelas"
+  },
+  "famous": {
+    "title": "Pessoas Famosas"
+  },
+  "wellness": {
+    "title": "Saúde e Bem-estar",
+    "disclaimer": "*Isto é apenas para fins educacionais. Consulte profissionais de saúde para aconselhamento médico."
+  },
+  "distribution": {
+    "title": "Distribuição de Tipo Sanguíneo"
+  },
+  "share": {
+    "title": "Compartilhe Seus Resultados",
+    "button": "Compartilhar Resultados",
+    "download": "Baixar Cartão"
+  },
+  "premium": {
+    "title": "Desbloquear Análise Profunda",
+    "message": "Assista a um anúncio para ver sua análise alimentada por IA",
+    "watchAd": "Assistir Anúncio (30 seg)",
+    "deepAnalysis": "Análise Profunda de IA (Assistir Anúncio)"
+  },
+  "common": {
+    "back": "Voltar"
+  }
+}

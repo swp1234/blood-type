@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0f0f23">
+    <meta name="description" content="Blood Type Personality Analysis - Discover your unique personality traits based on your blood type. Includes compatibility charts and AI deep analysis.">
+    <meta name="keywords" content="blood type, personality, analysis, compatibility, ABAB, blood type test">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Blood Type Personality Analysis">
+    <meta property="og:description" content="Discover your unique personality traits and compatibility based on your blood type.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dopabrain.com/blood-type/">
+    <meta property="og:image" content="https://dopabrain.com/blood-type/icon-512.svg">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Blood Type Personality Analysis",
+        "description": "Discover your personality traits and compatibility based on your blood type",
+        "url": "https://dopabrain.com/blood-type/",
+        "applicationCategory": "LifestyleApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "0"
+        }
+    }
+    </script>
+
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J8GSWM40TV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-J8GSWM40TV');
+    </script>
+
+    <!-- AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3600813755953882" crossorigin="anonymous"></script>
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icon-192.svg">
+    <link rel="apple-touch-icon" href="icon-192.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <title data-i18n="title">Blood Type Personality Analysis</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Language Selector -->
+        <div class="language-selector">
+            <button id="lang-toggle" class="lang-toggle" aria-label="Language">
+                <span class="flag">🌐</span>
+            </button>
+            <div id="lang-menu" class="lang-menu" hidden>
+                <button class="lang-option" data-lang="ko" aria-label="한국어">🇰🇷 한국어</button>
+                <button class="lang-option" data-lang="en" aria-label="English">🇺🇸 English</button>
+                <button class="lang-option" data-lang="ja" aria-label="日本語">🇯🇵 日本語</button>
+                <button class="lang-option" data-lang="zh" aria-label="中文">🇨🇳 中文</button>
+                <button class="lang-option" data-lang="es" aria-label="Español">🇪🇸 Español</button>
+                <button class="lang-option" data-lang="pt" aria-label="Português">🇧🇷 Português</button>
+                <button class="lang-option" data-lang="id" aria-label="Indonesia">🇮🇩 Indonesia</button>
+                <button class="lang-option" data-lang="tr" aria-label="Türkçe">🇹🇷 Türkçe</button>
+                <button class="lang-option" data-lang="de" aria-label="Deutsch">🇩🇪 Deutsch</button>
+                <button class="lang-option" data-lang="fr" aria-label="Français">🇫🇷 Français</button>
+                <button class="lang-option" data-lang="hi" aria-label="हिन्दी">🇮🇳 हिन्दी</button>
+                <button class="lang-option" data-lang="ru" aria-label="Русский">🇷🇺 Русский</button>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title" data-i18n="app.title">Blood Type Personality</h1>
+                <p class="subtitle" data-i18n="app.subtitle">Discover Your Hidden Personality</p>
+            </div>
+        </header>
+
+        <!-- AdSense Top Banner -->
+        <div class="ad-container ad-top">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-3600813755953882"
+                 data-ad-slot="1234567890"
+                 data-ad-format="horizontal"
+                 data-full-width-responsive="true"></ins>
+        </div>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Screen 1: Selection -->
+            <section id="selection-screen" class="screen active">
+                <div class="screen-content">
+                    <h2 data-i18n="selection.title">Select Your Blood Type</h2>
+                    <p data-i18n="selection.desc">Choose your blood type to begin your personality analysis</p>
+
+                    <div class="blood-type-grid">
+                        <button class="blood-type-btn" data-blood-type="A" aria-label="Blood Type A">
+                            <span class="blood-drop">A</span>
+                            <span class="blood-type-label">Type A</span>
+                        </button>
+                        <button class="blood-type-btn" data-blood-type="B" aria-label="Blood Type B">
+                            <span class="blood-drop">B</span>
+                            <span class="blood-type-label">Type B</span>
+                        </button>
+                        <button class="blood-type-btn" data-blood-type="O" aria-label="Blood Type O">
+                            <span class="blood-drop">O</span>
+                            <span class="blood-type-label">Type O</span>
+                        </button>
+                        <button class="blood-type-btn" data-blood-type="AB" aria-label="Blood Type AB">
+                            <span class="blood-drop">AB</span>
+                            <span class="blood-type-label">Type AB</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Screen 2: Results -->
+            <section id="results-screen" class="screen">
+                <div class="screen-content">
+                    <button class="back-btn" id="back-btn" aria-label="Back">← <span data-i18n="common.back">Back</span></button>
+
+                    <!-- Blood Type Header -->
+                    <div class="result-header">
+                        <div class="result-blood-drop" id="result-blood-drop"></div>
+                        <h2 id="result-title"></h2>
+                        <p class="result-summary" id="result-summary" data-i18n="personality.summary"></p>
+                    </div>
+
+                    <!-- Tabs -->
+                    <div class="tabs">
+                        <button class="tab-btn active" data-tab="personality" data-i18n="tabs.personality">Personality</button>
+                        <button class="tab-btn" data-tab="compatibility" data-i18n="tabs.compatibility">Compatibility</button>
+                        <button class="tab-btn" data-tab="famous" data-i18n="tabs.famous">Famous People</button>
+                        <button class="tab-btn" data-tab="wellness" data-i18n="tabs.wellness">Wellness</button>
+                        <button class="tab-btn" data-tab="distribution" data-i18n="tabs.distribution">Distribution</button>
+                    </div>
+
+                    <!-- Personality Tab -->
+                    <div class="tab-content active" id="personality-tab">
+                        <div class="traits-container">
+                            <div class="trait-group">
+                                <h3 data-i18n="personality.strengths">Strengths</h3>
+                                <ul id="strengths-list"></ul>
+                            </div>
+                            <div class="trait-group">
+                                <h3 data-i18n="personality.weaknesses">Weaknesses</h3>
+                                <ul id="weaknesses-list"></ul>
+                            </div>
+                        </div>
+
+                        <div class="trait-group">
+                            <h3 data-i18n="personality.loveStyle">Love Style</h3>
+                            <p id="love-style"></p>
+                        </div>
+
+                        <div class="trait-group">
+                            <h3 data-i18n="personality.careerFit">Career Fit</h3>
+                            <p id="career-fit"></p>
+                        </div>
+
+                        <div class="trait-group">
+                            <h3 data-i18n="personality.stress">Stress Relief</h3>
+                            <p id="stress-relief"></p>
+                        </div>
+
+                        <button class="premium-btn" id="premium-btn-personality" data-i18n="premium.deepAnalysis">AI Deep Analysis (Watch Ad)</button>
+                    </div>
+
+                    <!-- Compatibility Tab -->
+                    <div class="tab-content" id="compatibility-tab">
+                        <h3 data-i18n="compatibility.title">Compatibility Chart</h3>
+                        <div class="compatibility-chart" id="compatibility-chart"></div>
+                        <p class="chart-legend" data-i18n="compatibility.legend">Rating scale: 1-5 stars</p>
+                    </div>
+
+                    <!-- Famous People Tab -->
+                    <div class="tab-content" id="famous-tab">
+                        <h3 data-i18n="famous.title">Famous People</h3>
+                        <div class="famous-people" id="famous-people"></div>
+                    </div>
+
+                    <!-- Wellness Tab -->
+                    <div class="tab-content" id="wellness-tab">
+                        <h3 data-i18n="wellness.title">Health & Wellness</h3>
+                        <div class="wellness-info" id="wellness-info"></div>
+                        <p class="disclaimer" data-i18n="wellness.disclaimer">*This is for educational purposes. Consult healthcare professionals for medical advice.</p>
+                    </div>
+
+                    <!-- Distribution Tab -->
+                    <div class="tab-content" id="distribution-tab">
+                        <h3 data-i18n="distribution.title">Blood Type Distribution</h3>
+                        <div class="distribution-container" id="distribution-container"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Share Section -->
+        <div id="share-section" class="share-section" hidden>
+            <h3 data-i18n="share.title">Share Your Results</h3>
+            <div class="share-buttons">
+                <button id="share-btn" class="share-btn" aria-label="Share Results">
+                    📤 <span data-i18n="share.button">Share Results</span>
+                </button>
+                <button id="download-btn" class="share-btn" aria-label="Download Card">
+                    ⬇️ <span data-i18n="share.download">Download Card</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- AdSense Bottom Banner -->
+        <div class="ad-container ad-bottom">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-3600813755953882"
+                 data-ad-slot="0987654321"
+                 data-ad-format="horizontal"
+                 data-full-width-responsive="true"></ins>
+        </div>
+
+        <!-- Premium Modal -->
+        <div id="premium-modal" class="modal" hidden>
+            <div class="modal-content">
+                <button class="modal-close" aria-label="Close">&times;</button>
+                <h2 data-i18n="premium.title">Unlock Deep Analysis</h2>
+                <p data-i18n="premium.message">Watch an ad to see your detailed AI-powered analysis</p>
+                <button id="watch-ad-btn" class="btn-primary" data-i18n="premium.watchAd">Watch Ad (30 sec)</button>
+            </div>
+        </div>
+
+        <!-- Particle Effect Container -->
+        <canvas id="particle-canvas"></canvas>
+    </div>
+
+    <!-- Service Worker Registration -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js').catch(err => console.log('SW registration failed:', err));
+        }
+    </script>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

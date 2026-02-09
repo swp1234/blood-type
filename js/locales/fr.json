@@ -1,0 +1,54 @@
+{
+  "title": "Analyse de Personnalité par Groupe Sanguin",
+  "app": {
+    "title": "Analyse de Personnalité",
+    "subtitle": "Découvrez Votre Personnalité Cachée"
+  },
+  "selection": {
+    "title": "Sélectionnez Votre Groupe Sanguin",
+    "desc": "Choisissez votre groupe sanguin pour commencer votre analyse de personnalité"
+  },
+  "personality": {
+    "summary": "Analyse de Personnalité",
+    "strengths": "Points Forts",
+    "weaknesses": "Points Faibles",
+    "loveStyle": "Style d'Amour",
+    "careerFit": "Aptitude Professionnelle",
+    "stress": "Soulagement du Stress"
+  },
+  "tabs": {
+    "personality": "Personnalité",
+    "compatibility": "Compatibilité",
+    "famous": "Personnalités Célèbres",
+    "wellness": "Bien-être",
+    "distribution": "Distribution"
+  },
+  "compatibility": {
+    "title": "Tableau de Compatibilité",
+    "legend": "Échelle de notation: 1-5 étoiles"
+  },
+  "famous": {
+    "title": "Personnalités Célèbres"
+  },
+  "wellness": {
+    "title": "Santé et Bien-être",
+    "disclaimer": "*À titre informatif uniquement. Consultez des professionnels de la santé pour des conseils médicaux."
+  },
+  "distribution": {
+    "title": "Distribution des Groupes Sanguins"
+  },
+  "share": {
+    "title": "Partagez Vos Résultats",
+    "button": "Partager les Résultats",
+    "download": "Télécharger la Carte"
+  },
+  "premium": {
+    "title": "Débloquer l'Analyse Approfondie",
+    "message": "Regardez une annonce pour voir votre analyse alimentée par l'IA",
+    "watchAd": "Regarder l'Annonce (30 s)",
+    "deepAnalysis": "Analyse Approfondie par IA (Regarder l'Annonce)"
+  },
+  "common": {
+    "back": "Retour"
+  }
+}

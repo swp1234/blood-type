@@ -1,0 +1,54 @@
+{
+  "title": "血液型性格分析",
+  "app": {
+    "title": "血液型性格分析",
+    "subtitle": "あなたの隠された性格を発見する"
+  },
+  "selection": {
+    "title": "血液型を選択してください",
+    "desc": "血液型を選択して性格分析を開始します"
+  },
+  "personality": {
+    "summary": "性格分析",
+    "strengths": "強み",
+    "weaknesses": "弱点",
+    "loveStyle": "恋愛スタイル",
+    "careerFit": "職業適性",
+    "stress": "ストレス解消"
+  },
+  "tabs": {
+    "personality": "性格",
+    "compatibility": "相性",
+    "famous": "有名人",
+    "wellness": "健康",
+    "distribution": "分布"
+  },
+  "compatibility": {
+    "title": "血液型相性表",
+    "legend": "評価スケール:1〜5つ星"
+  },
+  "famous": {
+    "title": "有名人"
+  },
+  "wellness": {
+    "title": "健康とウェルネス",
+    "disclaimer": "*これは教育目的です。医療に関するアドバイスは専門家に相談してください。"
+  },
+  "distribution": {
+    "title": "血液型分布"
+  },
+  "share": {
+    "title": "結果を共有する",
+    "button": "結果を共有",
+    "download": "カードをダウンロード"
+  },
+  "premium": {
+    "title": "深い分析のロックを解除",
+    "message": "広告を見て、AI分析を確認してください",
+    "watchAd": "広告を見る (30秒)",
+    "deepAnalysis": "AI深層分析(広告を見る)"
+  },
+  "common": {
+    "back": "戻る"
+  }
+}

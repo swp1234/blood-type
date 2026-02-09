@@ -1,0 +1,54 @@
+{
+  "title": "血型性格分析",
+  "app": {
+    "title": "血型性格分析",
+    "subtitle": "发现您隐藏的个性"
+  },
+  "selection": {
+    "title": "选择您的血型",
+    "desc": "选择您的血型以开始个性分析"
+  },
+  "personality": {
+    "summary": "性格分析",
+    "strengths": "优势",
+    "weaknesses": "劣势",
+    "loveStyle": "爱情风格",
+    "careerFit": "职业适合度",
+    "stress": "减压方法"
+  },
+  "tabs": {
+    "personality": "性格",
+    "compatibility": "兼容性",
+    "famous": "名人",
+    "wellness": "健康",
+    "distribution": "分布"
+  },
+  "compatibility": {
+    "title": "血型兼容性表",
+    "legend": "评分量表: 1-5 星"
+  },
+  "famous": {
+    "title": "名人"
+  },
+  "wellness": {
+    "title": "健康与健身",
+    "disclaimer": "*仅供教育目的。请咨询医疗专业人士获取医疗建议。"
+  },
+  "distribution": {
+    "title": "血型分布"
+  },
+  "share": {
+    "title": "分享您的结果",
+    "button": "分享结果",
+    "download": "下载卡片"
+  },
+  "premium": {
+    "title": "解锁深度分析",
+    "message": "观看广告以查看您的AI分析",
+    "watchAd": "观看广告 (30秒)",
+    "deepAnalysis": "AI深度分析(观看广告)"
+  },
+  "common": {
+    "back": "返回"
+  }
+}

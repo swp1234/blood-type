@@ -1,0 +1,54 @@
+{
+  "title": "Kan Grubu Kişilik Analizi",
+  "app": {
+    "title": "Kişilik Analizi",
+    "subtitle": "Gizli Kişiliğinizi Keşfedin"
+  },
+  "selection": {
+    "title": "Kan Grubunuzu Seçin",
+    "desc": "Kişilik analizi başlatmak için kan grubunuzu seçin"
+  },
+  "personality": {
+    "summary": "Kişilik Analizi",
+    "strengths": "Güçlü Yönler",
+    "weaknesses": "Zayıf Yönler",
+    "loveStyle": "Aşk Tarzı",
+    "careerFit": "Kariyer Uyumu",
+    "stress": "Stres Rahatlatma"
+  },
+  "tabs": {
+    "personality": "Kişilik",
+    "compatibility": "Uyumluluk",
+    "famous": "Ünlü Kişiler",
+    "wellness": "Sağlık",
+    "distribution": "Dağılım"
+  },
+  "compatibility": {
+    "title": "Uyumluluk Tablosu",
+    "legend": "Derecelendirme ölçeği: 1-5 yıldız"
+  },
+  "famous": {
+    "title": "Ünlü Kişiler"
+  },
+  "wellness": {
+    "title": "Sağlık ve Wellness",
+    "disclaimer": "*Bu yalnızca eğitim amaçlıdır. Tıbbi tavsiye için sağlık profesyonelleriyle danışın."
+  },
+  "distribution": {
+    "title": "Kan Grubu Dağılımı"
+  },
+  "share": {
+    "title": "Sonuçlarınızı Paylaşın",
+    "button": "Sonuçları Paylaş",
+    "download": "Kartı İndir"
+  },
+  "premium": {
+    "title": "Derin Analizi Kilidini Aç",
+    "message": "Yapay zeka destekli analizinizi görmek için bir reklam izleyin",
+    "watchAd": "Reklam İzle (30 sn)",
+    "deepAnalysis": "Yapay Zeka Derin Analizi (Reklam İzle)"
+  },
+  "common": {
+    "back": "Geri"
+  }
+}

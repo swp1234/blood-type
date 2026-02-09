@@ -1,0 +1,54 @@
+{
+  "title": "Blutgruppen-Persönlichkeitsanalyse",
+  "app": {
+    "title": "Persönlichkeitsanalyse",
+    "subtitle": "Entdecken Sie Ihre Verborgene Persönlichkeit"
+  },
+  "selection": {
+    "title": "Wählen Sie Ihre Blutgruppe",
+    "desc": "Wählen Sie Ihre Blutgruppe, um Ihre Persönlichkeitsanalyse zu beginnen"
+  },
+  "personality": {
+    "summary": "Persönlichkeitsanalyse",
+    "strengths": "Stärken",
+    "weaknesses": "Schwächen",
+    "loveStyle": "Liebessil",
+    "careerFit": "Berufseignung",
+    "stress": "Stressabbau"
+  },
+  "tabs": {
+    "personality": "Persönlichkeit",
+    "compatibility": "Kompatibilität",
+    "famous": "Berühmte Personen",
+    "wellness": "Wellness",
+    "distribution": "Verteilung"
+  },
+  "compatibility": {
+    "title": "Kompatibilitätstabelle",
+    "legend": "Bewertungsskala: 1-5 Sterne"
+  },
+  "famous": {
+    "title": "Berühmte Personen"
+  },
+  "wellness": {
+    "title": "Gesundheit und Wellness",
+    "disclaimer": "*Dies dient nur zu Bildungszwecken. Konsultieren Sie Gesundheitsfachleute für medizinische Ratschläge."
+  },
+  "distribution": {
+    "title": "Blutgruppenverteilung"
+  },
+  "share": {
+    "title": "Teilen Sie Ihre Ergebnisse",
+    "button": "Ergebnisse Teilen",
+    "download": "Karte Herunterladen"
+  },
+  "premium": {
+    "title": "Tiefenanalyse Freischalten",
+    "message": "Sehen Sie sich eine Anzeige an, um Ihre KI-gestützte Analyse zu sehen",
+    "watchAd": "Anzeige Ansehen (30 Sek)",
+    "deepAnalysis": "KI Tiefenanalyse (Anzeige Ansehen)"
+  },
+  "common": {
+    "back": "Zurück"
+  }
+}

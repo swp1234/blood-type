@@ -1,0 +1,54 @@
+{
+  "title": "Analisis Kepribadian Berdasarkan Golongan Darah",
+  "app": {
+    "title": "Analisis Kepribadian",
+    "subtitle": "Temukan Kepribadian Tersembunyi Anda"
+  },
+  "selection": {
+    "title": "Pilih Golongan Darah Anda",
+    "desc": "Pilih golongan darah Anda untuk memulai analisis kepribadian"
+  },
+  "personality": {
+    "summary": "Analisis Kepribadian",
+    "strengths": "Kekuatan",
+    "weaknesses": "Kelemahan",
+    "loveStyle": "Gaya Cinta",
+    "careerFit": "Kecocokan Karir",
+    "stress": "Penghilang Stres"
+  },
+  "tabs": {
+    "personality": "Kepribadian",
+    "compatibility": "Kompatibilitas",
+    "famous": "Orang Terkenal",
+    "wellness": "Kesehatan",
+    "distribution": "Distribusi"
+  },
+  "compatibility": {
+    "title": "Tabel Kompatibilitas",
+    "legend": "Skala penilaian: 1-5 bintang"
+  },
+  "famous": {
+    "title": "Orang Terkenal"
+  },
+  "wellness": {
+    "title": "Kesehatan dan Kebugaran",
+    "disclaimer": "*Ini hanya untuk tujuan pendidikan. Konsultasikan dengan profesional kesehatan untuk nasihat medis."
+  },
+  "distribution": {
+    "title": "Distribusi Golongan Darah"
+  },
+  "share": {
+    "title": "Bagikan Hasil Anda",
+    "button": "Bagikan Hasil",
+    "download": "Unduh Kartu"
+  },
+  "premium": {
+    "title": "Buka Analisis Mendalam",
+    "message": "Tonton iklan untuk melihat analisis berbasis AI Anda",
+    "watchAd": "Tonton Iklan (30 dtk)",
+    "deepAnalysis": "Analisis Mendalam AI (Tonton Iklan)"
+  },
+  "common": {
+    "back": "Kembali"
+  }
+}
