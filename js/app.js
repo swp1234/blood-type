@@ -761,7 +761,11 @@ class BloodTypeApp {
 // Initialize app when DOM is ready
 document.addEventListener('DOMContentLoaded', async () => {
     // Initialize i18n
-    await i18n.init();
+    try {
+        await i18n.init();
+    } catch (e) {
+        console.warn('i18n init failed:', e);
+    }
 
     // Initialize app
     const app = new BloodTypeApp();
