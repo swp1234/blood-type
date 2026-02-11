@@ -12,6 +12,7 @@
     <meta property="og:description" content="Discover your unique personality traits and compatibility based on your blood type.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://dopabrain.com/blood-type/">
+    <link rel="canonical" href="https://dopabrain.com/blood-type/">
     <meta property="og:image" content="https://dopabrain.com/blood-type/icon-512.svg">
 
     <!-- Schema.org -->
@@ -49,7 +50,13 @@
     <title data-i18n="title">Blood Type Personality Analysis</title>
 </head>
 <body>
+    <div class="app-loader" id="app-loader">
+        <div class="loader-spinner"></div>
+    </div>
     <div class="container">
+        <!-- Theme Toggle -->
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">☀️</button>
+        
         <!-- Language Selector -->
         <div class="language-selector">
             <button id="lang-toggle" class="lang-toggle" aria-label="Language">

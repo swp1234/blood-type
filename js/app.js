@@ -760,21 +760,46 @@ class BloodTypeApp {
 
 // Initialize app when DOM is ready
 document.addEventListener('DOMContentLoaded', async () => {
-    // Initialize i18n
     try {
-        await i18n.init();
-    } catch (e) {
-        console.warn('i18n init failed:', e);
-    }
-
-    // Initialize app
-    const app = new BloodTypeApp();
-
-    // Handle window resize for particle canvas
-    window.addEventListener('resize', () => {
-        if (app.particleSystem) {
-            app.particleSystem.canvas.width = window.innerWidth;
-            app.particleSystem.canvas.height = window.innerHeight;
+        // Initialize i18n
+        try {
+            await i18n.init();
+        } catch (e) {
+            console.warn('i18n init failed:', e);
         }
-    });
+
+        // Initialize app
+        const app = new BloodTypeApp();
+
+        // Theme toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        if (themeToggle) {
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            themeToggle.textContent = savedTheme === 'light' ? '🌙' : '☀️';
+            themeToggle.addEventListener('click', () => {
+                const current = document.documentElement.getAttribute('data-theme');
+                const next = current === 'light' ? 'dark' : 'light';
+                document.documentElement.setAttribute('data-theme', next);
+                localStorage.setItem('theme', next);
+                themeToggle.textContent = next === 'light' ? '🌙' : '☀️';
+            });
+        }
+
+        // Handle window resize for particle canvas
+        window.addEventListener('resize', () => {
+            if (app.particleSystem) {
+                app.particleSystem.canvas.width = window.innerWidth;
+                app.particleSystem.canvas.height = window.innerHeight;
+            }
+        });
+    } catch(e) {
+        console.error('Init error:', e);
+    } finally {
+        const loader = document.getElementById('app-loader');
+        if (loader) {
+            loader.classList.add('hidden');
+            setTimeout(() => loader.remove(), 300);
+        }
+    }
 });
