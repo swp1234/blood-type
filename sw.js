@@ -3,7 +3,7 @@
  * Enables offline functionality and caching
  */
 
-const CACHE_NAME = 'blood-type-v1';
+const CACHE_NAME = 'blood-type-v2';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
@@ -55,56 +55,27 @@ self.addEventListener('activate', event => {
     );
 });
 
-// Fetch event - serve from cache, fallback to network
+// Fetch event - network first, fallback to cache
 self.addEventListener('fetch', event => {
-    // Skip non-GET requests
-    if (event.request.method !== 'GET') {
-        return;
-    }
+    if (event.request.method !== 'GET') return;
+
+    // Skip external requests (ads, analytics, etc.)
+    if (!event.request.url.startsWith(self.location.origin)) return;
 
     event.respondWith(
-        caches.match(event.request)
+        fetch(event.request)
             .then(response => {
-                // Return cached response if available
-                if (response) {
-                    return response;
-                }
-
-                // Otherwise, fetch from network
-                return fetch(event.request)
-                    .then(response => {
-                        // Don't cache non-successful responses
-                        if (!response || response.status !== 200 || response.type === 'error') {
-                            return response;
-                        }
-
-                        // Clone the response
-                        const responseToCache = response.clone();
-
-                        // Cache successful responses for future use
-                        caches.open(CACHE_NAME)
-                            .then(cache => {
-                                cache.put(event.request, responseToCache);
-                            });
-
-                        return response;
-                    })
-                    .catch(() => {
-                        // Return offline fallback if available
-                        return caches.match(event.request)
-                            .then(response => {
-                                return response || new Response(
-                                    'Offline - Please check your connection',
-                                    {
-                                        status: 503,
-                                        statusText: 'Service Unavailable',
-                                        headers: new Headers({
-                                            'Content-Type': 'text/plain'
-                                        })
-                                    }
-                                );
-                            });
+                if (response && response.status === 200) {
+                    const responseToCache = response.clone();
+                    caches.open(CACHE_NAME).then(cache => {
+                        cache.put(event.request, responseToCache);
                     });
+                }
+                return response;
+            })
+            .catch(() => {
+                return caches.match(event.request)
+                    .then(cached => cached || caches.match('./index.html'));
             })
     );
 });
