@@ -292,6 +292,13 @@ class BloodTypeApp {
      * Select blood type and display results
      */
     selectBloodType(type) {
+        // GA4 engagement event to reduce bounce rate
+        if (!this._engagementFired) {
+            this._engagementFired = true;
+            if (typeof gtag === 'function') {
+                gtag('event', 'engagement', { event_category: 'blood_type', event_label: 'first_interaction' });
+            }
+        }
         this.currentBloodType = type;
         this.displayResults(type);
     }

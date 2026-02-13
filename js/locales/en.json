@@ -6,7 +6,8 @@
   },
   "selection": {
     "title": "Select Your Blood Type",
-    "desc": "Choose your blood type to begin your personality analysis"
+    "desc": "Choose your blood type to begin your personality analysis",
+    "hint": "Tap your blood type below for instant results"
   },
   "personality": {
     "summary": "Personality Analysis",
