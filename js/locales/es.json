@@ -6,7 +6,11 @@
   },
   "selection": {
     "title": "Selecciona Tu Tipo de Sangre",
-    "desc": "Elige tu tipo de sangre para comenzar tu análisis de personalidad"
+    "desc": "Elige tu tipo de sangre para comenzar tu análisis de personalidad",
+    "typeA": "Tipo A",
+    "typeB": "Tipo B",
+    "typeO": "Tipo O",
+    "typeAB": "Tipo AB"
   },
   "personality": {
     "summary": "Análisis de Personalidad",
@@ -50,5 +54,9 @@
   },
   "common": {
     "back": "Atrás"
+  },
+  "nav": {
+    "relatedArticles": "📖 Artículos relacionados",
+    "backHome": "← DopaBrain Inicio"
   }
 }

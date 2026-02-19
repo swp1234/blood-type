@@ -6,7 +6,11 @@
   },
   "selection": {
     "title": "Sélectionnez Votre Groupe Sanguin",
-    "desc": "Choisissez votre groupe sanguin pour commencer votre analyse de personnalité"
+    "desc": "Choisissez votre groupe sanguin pour commencer votre analyse de personnalité",
+    "typeA": "Type A",
+    "typeB": "Type B",
+    "typeO": "Type O",
+    "typeAB": "Type AB"
   },
   "personality": {
     "summary": "Analyse de Personnalité",
@@ -50,5 +54,9 @@
   },
   "common": {
     "back": "Retour"
+  },
+  "nav": {
+    "relatedArticles": "📖 Articles connexes",
+    "backHome": "← DopaBrain Accueil"
   }
 }

@@ -6,7 +6,11 @@
   },
   "selection": {
     "title": "选择您的血型",
-    "desc": "选择您的血型以开始个性分析"
+    "desc": "选择您的血型以开始个性分析",
+    "typeA": "A型",
+    "typeB": "B型",
+    "typeO": "O型",
+    "typeAB": "AB型"
   },
   "personality": {
     "summary": "性格分析",
@@ -50,5 +54,9 @@
   },
   "common": {
     "back": "返回"
+  },
+  "nav": {
+    "relatedArticles": "📖 相关文章",
+    "backHome": "← DopaBrain 首页"
   }
 }

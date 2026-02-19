@@ -6,7 +6,11 @@
   },
   "selection": {
     "title": "血液型を選択してください",
-    "desc": "血液型を選択して性格分析を開始します"
+    "desc": "血液型を選択して性格分析を開始します",
+    "typeA": "A型",
+    "typeB": "B型",
+    "typeO": "O型",
+    "typeAB": "AB型"
   },
   "personality": {
     "summary": "性格分析",
@@ -50,5 +54,9 @@
   },
   "common": {
     "back": "戻る"
+  },
+  "nav": {
+    "relatedArticles": "📖 関連記事",
+    "backHome": "← DopaBrain ホーム"
   }
 }

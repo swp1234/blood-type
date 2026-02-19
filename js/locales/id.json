@@ -6,7 +6,11 @@
   },
   "selection": {
     "title": "Pilih Golongan Darah Anda",
-    "desc": "Pilih golongan darah Anda untuk memulai analisis kepribadian"
+    "desc": "Pilih golongan darah Anda untuk memulai analisis kepribadian",
+    "typeA": "Tipe A",
+    "typeB": "Tipe B",
+    "typeO": "Tipe O",
+    "typeAB": "Tipe AB"
   },
   "personality": {
     "summary": "Analisis Kepribadian",
@@ -50,5 +54,9 @@
   },
   "common": {
     "back": "Kembali"
+  },
+  "nav": {
+    "relatedArticles": "📖 Artikel terkait",
+    "backHome": "← DopaBrain Beranda"
   }
 }

@@ -6,7 +6,11 @@
   },
   "selection": {
     "title": "Wählen Sie Ihre Blutgruppe",
-    "desc": "Wählen Sie Ihre Blutgruppe, um Ihre Persönlichkeitsanalyse zu beginnen"
+    "desc": "Wählen Sie Ihre Blutgruppe, um Ihre Persönlichkeitsanalyse zu beginnen",
+    "typeA": "Typ A",
+    "typeB": "Typ B",
+    "typeO": "Typ O",
+    "typeAB": "Typ AB"
   },
   "personality": {
     "summary": "Persönlichkeitsanalyse",
@@ -50,5 +54,9 @@
   },
   "common": {
     "back": "Zurück"
+  },
+  "nav": {
+    "relatedArticles": "📖 Verwandte Artikel",
+    "backHome": "← DopaBrain Startseite"
   }
 }

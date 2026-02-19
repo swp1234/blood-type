@@ -6,7 +6,11 @@
   },
   "selection": {
     "title": "Kan Grubunuzu Seçin",
-    "desc": "Kişilik analizi başlatmak için kan grubunuzu seçin"
+    "desc": "Kişilik analizi başlatmak için kan grubunuzu seçin",
+    "typeA": "A Tipi",
+    "typeB": "B Tipi",
+    "typeO": "O Tipi",
+    "typeAB": "AB Tipi"
   },
   "personality": {
     "summary": "Kişilik Analizi",
@@ -50,5 +54,9 @@
   },
   "common": {
     "back": "Geri"
+  },
+  "nav": {
+    "relatedArticles": "📖 İlgili Makaleler",
+    "backHome": "← DopaBrain Ana Sayfa"
   }
 }
