@@ -44,6 +44,7 @@
     --color-text-secondary: #5a5a70;
     --color-border: rgba(231, 76, 60, 0.1);
     --color-glass-bg: rgba(255, 255, 255, 0.9);
+    --text: #1a1a2e;
 }
 
 [data-theme="light"] body {
