@@ -44,7 +44,8 @@
   "share": {
     "title": "Compartilhe Seus Resultados",
     "button": "Compartilhar Resultados",
-    "download": "Baixar Cartão"
+    "download": "Baixar Cartão",
+    "text": "Minha análise de tipo sanguíneo: {title} - {summary}"
   },
   "premium": {
     "title": "Desbloquear Análise Profunda",
@@ -54,6 +55,11 @@
   },
   "common": {
     "back": "Voltar"
+  },
+  "canvas": {
+    "bloodType": "Tipo sanguíneo {type}",
+    "summary": "Resumo:",
+    "shareTitle": "Meu tipo sanguíneo: {title}"
   },
   "nav": {
     "relatedArticles": "📖 Artigos relacionados",

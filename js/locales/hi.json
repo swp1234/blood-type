@@ -44,7 +44,8 @@
   "share": {
     "title": "अपने परिणाम साझा करें",
     "button": "परिणाम साझा करें",
-    "download": "कार्ड डाउनलोड करें"
+    "download": "कार्ड डाउनलोड करें",
+    "text": "मेरा ब्लड टाइप विश्लेषण: {title} - {summary}"
   },
   "premium": {
     "title": "गहन विश्लेषण अनलॉक करें",
@@ -54,6 +55,11 @@
   },
   "common": {
     "back": "वापस"
+  },
+  "canvas": {
+    "bloodType": "ब्लड टाइप {type}",
+    "summary": "सारांश:",
+    "shareTitle": "मेरा ब्लड टाइप: {title}"
   },
   "nav": {
     "relatedArticles": "📖 संबंधित लेख",

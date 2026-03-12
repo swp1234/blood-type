@@ -44,7 +44,8 @@
   "share": {
     "title": "Comparte Tus Resultados",
     "button": "Compartir Resultados",
-    "download": "Descargar Tarjeta"
+    "download": "Descargar Tarjeta",
+    "text": "Mi análisis de tipo de sangre: {title} - {summary}"
   },
   "premium": {
     "title": "Desbloquear Análisis Profundo",
@@ -54,6 +55,11 @@
   },
   "common": {
     "back": "Atrás"
+  },
+  "canvas": {
+    "bloodType": "Tipo de sangre {type}",
+    "summary": "Resumen:",
+    "shareTitle": "Mi tipo de sangre: {title}"
   },
   "nav": {
     "relatedArticles": "📖 Artículos relacionados",

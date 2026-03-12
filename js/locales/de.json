@@ -44,7 +44,8 @@
   "share": {
     "title": "Teilen Sie Ihre Ergebnisse",
     "button": "Ergebnisse Teilen",
-    "download": "Karte Herunterladen"
+    "download": "Karte Herunterladen",
+    "text": "Meine Blutgruppenanalyse: {title} - {summary}"
   },
   "premium": {
     "title": "Tiefenanalyse Freischalten",
@@ -54,6 +55,11 @@
   },
   "common": {
     "back": "Zurück"
+  },
+  "canvas": {
+    "bloodType": "Blutgruppe {type}",
+    "summary": "Zusammenfassung:",
+    "shareTitle": "Meine Blutgruppe: {title}"
   },
   "nav": {
     "relatedArticles": "📖 Verwandte Artikel",

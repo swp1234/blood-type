@@ -554,8 +554,8 @@ class BloodTypeApp {
     async shareResults() {
         const data = this.getBloodTypeData()[this.currentBloodType];
         const shareData = {
-            title: `My Blood Type: ${data.title}`,
-            text: data.summary,
+            title: (window.i18n?.t('canvas.shareTitle') || 'My Blood Type: {title}').replace('{title}', data.title),
+            text: (window.i18n?.t('share.text') || 'Check out my blood type analysis: {title} - {summary}').replace('{title}', data.title).replace('{summary}', data.summary),
             url: window.location.href
         };
 
@@ -578,7 +578,7 @@ class BloodTypeApp {
      */
     fallbackShare() {
         const data = this.getBloodTypeData()[this.currentBloodType];
-        const text = `Check out my blood type personality analysis: ${data.title} - ${data.summary}`;
+        const text = (window.i18n?.t('share.text') || 'Check out my blood type analysis: {title} - {summary}').replace('{title}', data.title).replace('{summary}', data.summary);
         const encodedText = encodeURIComponent(text);
         const currentUrl = encodeURIComponent(window.location.href);
 
@@ -609,7 +609,7 @@ class BloodTypeApp {
         ctx.fillStyle = '#ffffff';
         ctx.font = 'bold 48px Arial';
         ctx.textAlign = 'center';
-        ctx.fillText(`Blood Type ${this.currentBloodType}`, canvas.width / 2, 80);
+        ctx.fillText((window.i18n?.t('canvas.bloodType') || 'Blood Type {type}').replace('{type}', this.currentBloodType), canvas.width / 2, 80);
 
         ctx.font = '32px Arial';
         ctx.fillText(data.title, canvas.width / 2, 140);
@@ -622,7 +622,7 @@ class BloodTypeApp {
         let yPos = 250;
         const lineHeight = 40;
 
-        ctx.fillText('Summary:', 50, yPos);
+        ctx.fillText(window.i18n?.t('canvas.summary') || 'Summary:', 50, yPos);
         yPos += lineHeight;
 
         ctx.font = '18px Arial';

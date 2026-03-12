@@ -44,7 +44,8 @@
   "share": {
     "title": "Bagikan Hasil Anda",
     "button": "Bagikan Hasil",
-    "download": "Unduh Kartu"
+    "download": "Unduh Kartu",
+    "text": "Analisis golongan darah saya: {title} - {summary}"
   },
   "premium": {
     "title": "Buka Analisis Mendalam",
@@ -54,6 +55,11 @@
   },
   "common": {
     "back": "Kembali"
+  },
+  "canvas": {
+    "bloodType": "Golongan Darah {type}",
+    "summary": "Ringkasan:",
+    "shareTitle": "Golongan darah saya: {title}"
   },
   "nav": {
     "relatedArticles": "📖 Artikel terkait",

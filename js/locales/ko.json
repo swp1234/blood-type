@@ -45,7 +45,8 @@
   "share": {
     "title": "결과 공유하기",
     "button": "결과 공유",
-    "download": "카드 다운로드"
+    "download": "카드 다운로드",
+    "text": "내 혈액형 성격 분석: {title} - {summary}"
   },
   "premium": {
     "title": "깊이 있는 분석 해금",
@@ -55,6 +56,11 @@
   },
   "common": {
     "back": "뒤로"
+  },
+  "canvas": {
+    "bloodType": "{type}형 혈액형",
+    "summary": "요약:",
+    "shareTitle": "내 혈액형: {title}"
   },
   "nav": {
     "relatedArticles": "📖 관련 글",

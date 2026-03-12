@@ -44,7 +44,8 @@
   "share": {
     "title": "結果を共有する",
     "button": "結果を共有",
-    "download": "カードをダウンロード"
+    "download": "カードをダウンロード",
+    "text": "血液型分析：{title} - {summary}"
   },
   "premium": {
     "title": "深い分析のロックを解除",
@@ -54,6 +55,11 @@
   },
   "common": {
     "back": "戻る"
+  },
+  "canvas": {
+    "bloodType": "{type}型",
+    "summary": "まとめ：",
+    "shareTitle": "私の血液型：{title}"
   },
   "nav": {
     "relatedArticles": "📖 関連記事",

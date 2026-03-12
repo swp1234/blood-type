@@ -44,7 +44,8 @@
   "share": {
     "title": "Partagez Vos Résultats",
     "button": "Partager les Résultats",
-    "download": "Télécharger la Carte"
+    "download": "Télécharger la Carte",
+    "text": "Mon analyse de groupe sanguin : {title} - {summary}"
   },
   "premium": {
     "title": "Débloquer l'Analyse Approfondie",
@@ -54,6 +55,11 @@
   },
   "common": {
     "back": "Retour"
+  },
+  "canvas": {
+    "bloodType": "Groupe sanguin {type}",
+    "summary": "Résumé :",
+    "shareTitle": "Mon groupe sanguin : {title}"
   },
   "nav": {
     "relatedArticles": "📖 Articles connexes",

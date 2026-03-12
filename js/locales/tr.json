@@ -44,7 +44,8 @@
   "share": {
     "title": "Sonuçlarınızı Paylaşın",
     "button": "Sonuçları Paylaş",
-    "download": "Kartı İndir"
+    "download": "Kartı İndir",
+    "text": "Kan grubu analizim: {title} - {summary}"
   },
   "premium": {
     "title": "Derin Analizi Kilidini Aç",
@@ -54,6 +55,11 @@
   },
   "common": {
     "back": "Geri"
+  },
+  "canvas": {
+    "bloodType": "Kan Grubu {type}",
+    "summary": "Özet:",
+    "shareTitle": "Kan grubum: {title}"
   },
   "nav": {
     "relatedArticles": "📖 İlgili Makaleler",
