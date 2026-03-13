@@ -82,5 +82,13 @@
     "audio": "Audio no disponible. Puede continuar.",
     "network": "Verifique su conexión e inténtelo de nuevo.",
     "general": "Algo salió mal. Actualice o inténtelo de nuevo."
+  },
+  "engage": {
+    "cta": "Revela tu personalidad por tipo de sangre",
+    "proof": "personas analizaron su tipo de sangre",
+    "result1": "Tipo A -- El Perfeccionista",
+    "result2": "Tipo B -- El Espíritu Libre",
+    "result3": "Tipo O -- El Líder Natural",
+    "result4": "Tipo AB -- El Genio Racional"
   }
 }

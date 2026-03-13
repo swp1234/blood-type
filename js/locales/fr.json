@@ -82,5 +82,13 @@
     "audio": "Audio indisponible. Vous pouvez continuer.",
     "network": "Vérifiez votre connexion et réessayez.",
     "general": "Un problème est survenu. Rafraîchissez ou réessayez."
+  },
+  "engage": {
+    "cta": "Révélez votre personnalité par groupe sanguin",
+    "proof": "personnes ont analysé leur groupe sanguin",
+    "result1": "Type A -- Le Perfectionniste",
+    "result2": "Type B -- Esprit Libre",
+    "result3": "Type O -- Le Leader Naturel",
+    "result4": "Type AB -- Le Génie Rationnel"
   }
 }

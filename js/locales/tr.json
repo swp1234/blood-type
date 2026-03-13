@@ -82,5 +82,13 @@
     "audio": "Ses kullanılamıyor. Devam edebilirsiniz.",
     "network": "Bağlantınızı kontrol edip tekrar deneyin.",
     "general": "Bir şeyler ters gitti. Yenileyip tekrar deneyin."
+  },
+  "engage": {
+    "cta": "Kan grubunun kişiliğini keşfet",
+    "proof": "kişi kan grubunu analiz etti",
+    "result1": "Tip A -- Mükemmeliyetçi",
+    "result2": "Tip B -- Özgür Ruh",
+    "result3": "Tip O -- Doğal Lider",
+    "result4": "Tip AB -- Rasyonel Dahi"
   }
 }

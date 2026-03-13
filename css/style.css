@@ -1137,6 +1137,95 @@ button:focus-visible {
     }
 }
 
+/* ===== ENGAGEMENT: Hero Animation ===== */
+.hero-blood-drop {
+    width: 100px;
+    height: 130px;
+    margin: 0 auto 20px;
+    position: relative;
+}
+.hero-blood-drop svg {
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(0 0 20px rgba(231, 76, 60, 0.5));
+}
+.hero-blood-drop svg .drop-body {
+    animation: dropPulse 2.5s ease-in-out infinite;
+    transform-origin: center;
+}
+@keyframes dropPulse {
+    0%, 100% { transform: scale(1); filter: brightness(1); }
+    50% { transform: scale(1.08); filter: brightness(1.2); }
+}
+.hero-blood-drop svg .drop-ripple {
+    animation: dropRipple 2.5s ease-out infinite;
+    transform-origin: center;
+}
+@keyframes dropRipple {
+    0% { r: 20; opacity: 0.6; }
+    100% { r: 50; opacity: 0; }
+}
+
+/* ===== ENGAGEMENT: Result Carousel ===== */
+.result-carousel {
+    position: relative;
+    overflow: hidden;
+    height: 52px;
+    margin: 16px auto;
+    max-width: 340px;
+    border-radius: 12px;
+    background: var(--color-glass-bg);
+    border: 1px solid var(--color-border);
+}
+.carousel-track {
+    display: flex;
+    flex-direction: column;
+    animation: carouselScroll 12s ease-in-out infinite;
+}
+.carousel-item {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    padding: 0 16px;
+}
+@keyframes carouselScroll {
+    0%, 20% { transform: translateY(0); }
+    25%, 45% { transform: translateY(-52px); }
+    50%, 70% { transform: translateY(-104px); }
+    75%, 95% { transform: translateY(-156px); }
+    100% { transform: translateY(0); }
+}
+
+/* ===== ENGAGEMENT: Social Proof Badge ===== */
+.social-proof-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, rgba(231, 76, 60, 0.15), rgba(231, 76, 60, 0.08));
+    border: 1px solid rgba(231, 76, 60, 0.3);
+    border-radius: 50px;
+    padding: 12px 24px;
+    margin: 16px auto;
+    animation: proofPulse 3s ease-in-out infinite;
+}
+.social-proof-badge .badge-count {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--color-primary);
+}
+.social-proof-badge .badge-label {
+    font-size: 13px;
+    color: var(--color-text-secondary);
+}
+@keyframes proofPulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.2); }
+    50% { box-shadow: 0 0 0 8px rgba(231, 76, 60, 0); }
+}
+
 /* Print Styles */
 @media print {
     body {

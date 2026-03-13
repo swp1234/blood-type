@@ -82,5 +82,13 @@
     "audio": "Audio tidak tersedia. Anda dapat melanjutkan.",
     "network": "Periksa koneksi Anda dan coba lagi.",
     "general": "Terjadi kesalahan. Muat ulang atau coba lagi."
+  },
+  "engage": {
+    "cta": "Ungkap kepribadian golongan darahmu",
+    "proof": "orang telah menganalisis golongan darah mereka",
+    "result1": "Tipe A -- Si Perfeksionis",
+    "result2": "Tipe B -- Si Jiwa Bebas",
+    "result3": "Tipe O -- Pemimpin Alami",
+    "result4": "Tipe AB -- Jenius Rasional"
   }
 }

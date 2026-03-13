@@ -87,5 +87,13 @@
     "audio": "Audio unavailable. You can still continue.",
     "network": "Please check your connection and try again.",
     "general": "Something went wrong. Please refresh or try again."
+  },
+  "engage": {
+    "cta": "Reveal Your Blood Type Personality",
+    "proof": "people analyzed their blood type",
+    "result1": "Type A -- The Perfectionist",
+    "result2": "Type B -- The Free Spirit",
+    "result3": "Type O -- The Natural Leader",
+    "result4": "Type AB -- The Rational Genius"
   }
 }

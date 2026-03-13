@@ -82,5 +82,13 @@
     "audio": "Audio nicht verfügbar. Sie können fortfahren.",
     "network": "Bitte Verbindung prüfen und erneut versuchen.",
     "general": "Etwas ist schiefgelaufen. Bitte aktualisieren oder erneut versuchen."
+  },
+  "engage": {
+    "cta": "Enthülle deine Blutgruppen-Persönlichkeit",
+    "proof": "Personen haben ihre Blutgruppe analysiert",
+    "result1": "Typ A -- Der Perfektionist",
+    "result2": "Typ B -- Der Freigeist",
+    "result3": "Typ O -- Der natürliche Anführer",
+    "result4": "Typ AB -- Das rationale Genie"
   }
 }

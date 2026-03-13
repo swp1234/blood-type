@@ -82,5 +82,13 @@
     "audio": "Áudio indisponível. Você pode continuar.",
     "network": "Verifique sua conexão e tente novamente.",
     "general": "Algo deu errado. Atualize ou tente novamente."
+  },
+  "engage": {
+    "cta": "Descubra sua personalidade pelo tipo sanguíneo",
+    "proof": "pessoas analisaram seu tipo sanguíneo",
+    "result1": "Tipo A -- O Perfeccionista",
+    "result2": "Tipo B -- O Espírito Livre",
+    "result3": "Tipo O -- O Líder Natural",
+    "result4": "Tipo AB -- O Gênio Racional"
   }
 }
