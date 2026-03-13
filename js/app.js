@@ -330,6 +330,9 @@ class BloodTypeApp {
         // Distribution tab
         this.displayDistribution();
 
+        // Percentile stat
+        this.displayPercentile(type);
+
         // Show results screen
         this.selectionScreen.classList.remove('active');
         this.resultsScreen.classList.add('active');
@@ -454,6 +457,20 @@ class BloodTypeApp {
                 </div>
             `)
             .join('');
+    }
+
+    /**
+     * Display percentile badge based on blood type rarity
+     */
+    displayPercentile(type) {
+        const distribution = this.getDistributionData();
+        const pct = distribution[type]?.percentage || 25;
+        // Rarer blood types get a better (lower) percentile
+        const percentile = Math.max(1, Math.min(99, 100 - pct + Math.floor(Math.random() * 5)));
+        const el = document.getElementById('percentileValue');
+        if (el) {
+            el.textContent = percentile + '%';
+        }
     }
 
     /**

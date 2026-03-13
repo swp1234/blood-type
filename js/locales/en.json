@@ -70,6 +70,16 @@
     "relatedArticles": "📖 Related Articles",
     "backHome": "← DopaBrain Home"
   },
+  "result": {
+    "percentile": "Top"
+  },
+  "related": {
+    "title": "Related Tests",
+    "zodiacMatch": "Zodiac Match",
+    "mbtiLove": "MBTI Love",
+    "nameMatch": "Name Match",
+    "animalPersonality": "Animal Personality"
+  },
   "error": {
     "storage": "Some features may be limited in private mode. You can continue.",
     "data": "Data loading error. Please refresh the page.",

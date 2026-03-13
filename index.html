@@ -260,6 +260,35 @@
                         <h3 data-i18n="distribution.title">Blood Type Distribution</h3>
                         <div class="distribution-container" id="distribution-container"></div>
                     </div>
+
+                    <!-- Percentile Badge -->
+                    <div class="percentile-badge" id="percentileBadge">
+                        <span data-i18n="result.percentile">Top</span>
+                        <span class="percentile-value" id="percentileValue">50%</span>
+                    </div>
+
+                    <!-- Related Tests -->
+                    <div class="related-tests" id="relatedTests">
+                        <h3 data-i18n="related.title">Related Tests</h3>
+                        <div class="related-cards">
+                            <a href="/zodiac-match/" class="related-card" style="--card-color:#e74c3c">
+                                <span class="related-icon">&#9800;</span>
+                                <span class="related-name" data-i18n="related.zodiacMatch">Zodiac Match</span>
+                            </a>
+                            <a href="/mbti-love/" class="related-card" style="--card-color:#ff6b9d">
+                                <span class="related-icon">&#128145;</span>
+                                <span class="related-name" data-i18n="related.mbtiLove">MBTI Love</span>
+                            </a>
+                            <a href="/name-match/" class="related-card" style="--card-color:#9b59b6">
+                                <span class="related-icon">&#128149;</span>
+                                <span class="related-name" data-i18n="related.nameMatch">Name Match</span>
+                            </a>
+                            <a href="/animal-personality/" class="related-card" style="--card-color:#8e44ad">
+                                <span class="related-icon">&#128062;</span>
+                                <span class="related-name" data-i18n="related.animalPersonality">Animal Personality</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
@@ -320,16 +349,6 @@
         </div>
         <p style="text-align:center;margin-top:16px"><a href="https://dopabrain.com/portal/" style="opacity:0.5;font-size:13px;text-decoration:none;color:inherit" data-i18n="nav.backHome">← DopaBrain Home</a></p>
     </nav>
-    <section class="related-games" style="margin:20px auto;padding:16px;max-width:480px;background:rgba(255,255,255,0.05);border-radius:12px;">
-      <p style="font-size:13px;color:#aaa;margin:0 0 8px 0;font-weight:600;">More Free Tests</p>
-      <div style="display:flex;gap:8px;flex-wrap:wrap;">
-        <a href="/kpop-position/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">🎤 K-pop Position</a>
-        <a href="/mbti-love/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">💕 MBTI Love</a>
-        <a href="/zodiac-match/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">♈ Zodiac Match</a>
-        <a href="/name-match/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">💑 Name Match</a>
-        <a href="/love-language/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">💕 Love Language</a>
-      </div>
-    </section>
     <script src="/portal/js/cross-promo.js" defer></script>
 </body>
 </html>

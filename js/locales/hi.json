@@ -65,6 +65,16 @@
     "relatedArticles": "📖 संबंधित लेख",
     "backHome": "← DopaBrain होम"
   },
+  "result": {
+    "percentile": "शीर्ष"
+  },
+  "related": {
+    "title": "संबंधित परीक्षण",
+    "zodiacMatch": "राशि मिलान",
+    "mbtiLove": "MBTI प्रेम",
+    "nameMatch": "नाम मिलान",
+    "animalPersonality": "पशु व्यक्तित्व"
+  },
   "error": {
     "storage": "प्राइवेट मोड में कुछ सुविधाएं सीमित हो सकती हैं।",
     "data": "डेटा लोडिंग त्रुटि। कृपया पेज रीफ्रेश करें।",

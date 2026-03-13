@@ -65,6 +65,16 @@
     "relatedArticles": "📖 相关文章",
     "backHome": "← DopaBrain 首页"
   },
+  "result": {
+    "percentile": "前"
+  },
+  "related": {
+    "title": "相关测试",
+    "zodiacMatch": "星座配对",
+    "mbtiLove": "MBTI 恋爱",
+    "nameMatch": "姓名配对",
+    "animalPersonality": "动物性格"
+  },
   "error": {
     "storage": "隐私模式下部分功能可能受限。",
     "data": "数据加载错误，请刷新页面。",

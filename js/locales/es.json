@@ -65,6 +65,16 @@
     "relatedArticles": "📖 Artículos relacionados",
     "backHome": "← DopaBrain Inicio"
   },
+  "result": {
+    "percentile": "Top"
+  },
+  "related": {
+    "title": "Tests Relacionados",
+    "zodiacMatch": "Compatibilidad Zodiacal",
+    "mbtiLove": "MBTI Amor",
+    "nameMatch": "Compatibilidad de Nombres",
+    "animalPersonality": "Personalidad Animal"
+  },
   "error": {
     "storage": "Algunas funciones pueden estar limitadas en modo privado.",
     "data": "Error al cargar datos. Actualice la página.",

@@ -65,6 +65,16 @@
     "relatedArticles": "📖 Verwandte Artikel",
     "backHome": "← DopaBrain Startseite"
   },
+  "result": {
+    "percentile": "Top"
+  },
+  "related": {
+    "title": "Verwandte Tests",
+    "zodiacMatch": "Sternzeichen-Match",
+    "mbtiLove": "MBTI Liebe",
+    "nameMatch": "Namens-Match",
+    "animalPersonality": "Tier-Persönlichkeit"
+  },
   "error": {
     "storage": "Einige Funktionen sind im privaten Modus eingeschränkt.",
     "data": "Fehler beim Laden. Bitte Seite aktualisieren.",

@@ -65,6 +65,16 @@
     "relatedArticles": "📖 Artikel terkait",
     "backHome": "← DopaBrain Beranda"
   },
+  "result": {
+    "percentile": "Teratas"
+  },
+  "related": {
+    "title": "Tes Terkait",
+    "zodiacMatch": "Kecocokan Zodiak",
+    "mbtiLove": "MBTI Cinta",
+    "nameMatch": "Kecocokan Nama",
+    "animalPersonality": "Kepribadian Hewan"
+  },
   "error": {
     "storage": "Beberapa fitur mungkin terbatas dalam mode privat.",
     "data": "Kesalahan memuat data. Silakan muat ulang.",

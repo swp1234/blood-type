@@ -65,6 +65,16 @@
     "relatedArticles": "📖 関連記事",
     "backHome": "← DopaBrain ホーム"
   },
+  "result": {
+    "percentile": "上位"
+  },
+  "related": {
+    "title": "関連テスト",
+    "zodiacMatch": "星座相性",
+    "mbtiLove": "MBTI 恋愛",
+    "nameMatch": "名前相性",
+    "animalPersonality": "動物性格"
+  },
   "error": {
     "storage": "プライベートモードでは一部機能が制限されます。",
     "data": "データ読み込みエラー。ページを更新してください。",

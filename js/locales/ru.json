@@ -65,6 +65,16 @@
     "relatedArticles": "📖 Статьи по теме",
     "backHome": "← DopaBrain Главная"
   },
+  "result": {
+    "percentile": "Топ"
+  },
+  "related": {
+    "title": "Похожие тесты",
+    "zodiacMatch": "Совместимость знаков",
+    "mbtiLove": "MBTI Любовь",
+    "nameMatch": "Совместимость имён",
+    "animalPersonality": "Животное-характер"
+  },
   "error": {
     "storage": "В приватном режиме некоторые функции ограничены.",
     "data": "Ошибка загрузки данных. Обновите страницу.",

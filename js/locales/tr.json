@@ -65,6 +65,16 @@
     "relatedArticles": "📖 İlgili Makaleler",
     "backHome": "← DopaBrain Ana Sayfa"
   },
+  "result": {
+    "percentile": "En iyi"
+  },
+  "related": {
+    "title": "İlgili Testler",
+    "zodiacMatch": "Burç Uyumu",
+    "mbtiLove": "MBTI Aşk",
+    "nameMatch": "İsim Uyumu",
+    "animalPersonality": "Hayvan Kişiliği"
+  },
   "error": {
     "storage": "Gizli modda bazı özellikler sınırlı olabilir.",
     "data": "Veri yükleme hatası. Lütfen sayfayı yenileyin.",

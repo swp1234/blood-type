@@ -1054,6 +1054,89 @@ button:focus-visible {
     }
 }
 
+/* ===== Percentile Badge ===== */
+.percentile-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 20px;
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--color-border);
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    justify-content: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.percentile-value {
+    font-weight: 800;
+    color: var(--color-primary);
+}
+
+/* ===== Related Tests Cards ===== */
+.related-tests {
+    margin: 28px 0 20px;
+}
+
+.related-tests h3 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-secondary);
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.related-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.related-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    color: var(--color-text-primary);
+    transition: var(--transition);
+    min-height: 44px;
+}
+
+.related-card:hover {
+    border-color: var(--card-color, var(--color-primary));
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.related-icon {
+    font-size: 1.5rem;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.related-name {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--card-color, var(--color-text-primary));
+}
+
+@media (max-width: 360px) {
+    .related-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Print Styles */
 @media print {
     body {
