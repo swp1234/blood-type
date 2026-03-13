@@ -95,5 +95,18 @@
     "result2": "Type B -- The Free Spirit",
     "result3": "Type O -- The Natural Leader",
     "result4": "Type AB -- The Rational Genius"
+  },
+  "about": {
+    "whatIsTitle": "What Is Blood Type Personality?",
+    "whatIsDesc": "Blood type personality theory (ketsueki-gata) originated in Japan in the early 20th century and suggests that your blood type influences your personality, temperament, and compatibility with others. While not scientifically validated, it remains one of the most popular personality frameworks in East Asia, similar to how Western cultures use zodiac signs.",
+    "whatIs1": "Popular in Japan, Korea, and other East Asian countries",
+    "whatIs2": "Covers personality traits, love compatibility, and career fit",
+    "whatIs3": "Used for fun self-discovery, not medical purposes",
+    "traitsTitle": "Blood Type Traits Overview",
+    "traitsDesc": "Each blood type is associated with distinct personality characteristics. Type A individuals are known for being organized and detail-oriented. Type B people are creative and free-spirited. Type O individuals are natural leaders with confidence. Type AB combines qualities from both A and B types, making them unique and versatile.",
+    "traits1": "Type A: Organized, considerate, perfectionist, harmonious",
+    "traits2": "Type B: Creative, passionate, flexible, independent",
+    "traits3": "Type O: Confident, outgoing, leadership-oriented, generous",
+    "traits4": "Type AB: Rational, empathetic, unique, adaptable"
   }
 }

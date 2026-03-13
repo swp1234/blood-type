@@ -90,5 +90,18 @@
     "result2": "Tip B -- Özgür Ruh",
     "result3": "Tip O -- Doğal Lider",
     "result4": "Tip AB -- Rasyonel Dahi"
+  },
+  "about": {
+    "whatIsTitle": "Kan Grubu Kişilik Nedir?",
+    "whatIsDesc": "Kan grubu kişilik teorisi Japonya'da ortaya çıkmıştır ve kan grubunuzun kişilik ve uyumluluğunuzu etkilediğini öne sürer. Bilimsel olarak kanıtlanmamış olsa da Doğu Asya'da çok popülerdir.",
+    "whatIs1": "Japonya, Kore ve Doğu Asya ülkelerinde popüler",
+    "whatIs2": "Kişilik özellikleri, aşk uyumluluğu ve kariyer uyumunu kapsar",
+    "whatIs3": "Eğlenceli kendini keşif aracı, tıbbi değil",
+    "traitsTitle": "Kan Grubu Özellikleri",
+    "traitsDesc": "Her kan grubu benzersiz kişilik özellikleriyle ilişkilendirilir. A tipi düzenli, B tipi yaratıcı, O tipi doğal lider ve AB tipi her ikisinin özelliklerini birleştirir.",
+    "traits1": "A Tipi: Düzenli, düşünceli, mükemmeliyetçi, uyumlu",
+    "traits2": "B Tipi: Yaratıcı, tutkulu, esnek, bağımsız",
+    "traits3": "O Tipi: Güvenli, sosyal, liderlik odaklı, cömert",
+    "traits4": "AB Tipi: Rasyonel, empatik, benzersiz, uyumlu"
   }
 }

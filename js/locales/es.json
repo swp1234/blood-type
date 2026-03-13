@@ -90,5 +90,18 @@
     "result2": "Tipo B -- El Espíritu Libre",
     "result3": "Tipo O -- El Líder Natural",
     "result4": "Tipo AB -- El Genio Racional"
+  },
+  "about": {
+    "whatIsTitle": "Que es la personalidad segun tipo de sangre?",
+    "whatIsDesc": "La teoria de personalidad por tipo de sangre se origino en Japon y sugiere que tu tipo de sangre influye en tu personalidad y compatibilidad. Sigue siendo muy popular en Asia Oriental.",
+    "whatIs1": "Popular en Japon, Corea y Asia Oriental",
+    "whatIs2": "Incluye rasgos de personalidad, compatibilidad y carrera",
+    "whatIs3": "Herramienta de autodescubrimiento divertida, no medica",
+    "traitsTitle": "Resumen de rasgos por tipo de sangre",
+    "traitsDesc": "Cada tipo de sangre tiene caracteristicas unicas. Tipo A organizados, B creativos, O lideres naturales y AB combina cualidades de ambos.",
+    "traits1": "Tipo A: Organizado, considerado, perfeccionista, armonioso",
+    "traits2": "Tipo B: Creativo, apasionado, flexible, independiente",
+    "traits3": "Tipo O: Seguro, sociable, lider, generoso",
+    "traits4": "Tipo AB: Racional, empatico, unico, adaptable"
   }
 }

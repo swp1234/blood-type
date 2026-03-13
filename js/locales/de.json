@@ -90,5 +90,18 @@
     "result2": "Typ B -- Der Freigeist",
     "result3": "Typ O -- Der natürliche Anführer",
     "result4": "Typ AB -- Das rationale Genie"
+  },
+  "about": {
+    "whatIsTitle": "Was ist Blutgruppen-Persoenlichkeit?",
+    "whatIsDesc": "Die Blutgruppen-Theorie stammt aus Japan und legt nahe, dass Ihre Blutgruppe Persoenlichkeit und Kompatibilitaet beeinflusst. Sie bleibt in Ostasien sehr beliebt.",
+    "whatIs1": "Beliebt in Japan, Korea und Ostasien",
+    "whatIs2": "Umfasst Persoenlichkeit, Liebeskompatibilitaet und Karriere",
+    "whatIs3": "Unterhaltsames Selbstentdeckungstool, nicht medizinisch",
+    "traitsTitle": "Blutgruppen-Eigenschaften",
+    "traitsDesc": "Jede Blutgruppe hat einzigartige Merkmale. Typ A organisiert, B kreativ, O natuerlicher Fuehrer, AB vereint Eigenschaften beider.",
+    "traits1": "Typ A: Organisiert, ruecksichtsvoll, perfektionistisch",
+    "traits2": "Typ B: Kreativ, leidenschaftlich, flexibel, unabhaengig",
+    "traits3": "Typ O: Selbstbewusst, gesellig, fuehrungsorientiert",
+    "traits4": "Typ AB: Rational, empathisch, einzigartig, anpassungsfaehig"
   }
 }

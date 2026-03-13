@@ -90,5 +90,18 @@
     "result2": "Tipo B -- O Espírito Livre",
     "result3": "Tipo O -- O Líder Natural",
     "result4": "Tipo AB -- O Gênio Racional"
+  },
+  "about": {
+    "whatIsTitle": "O que e personalidade por tipo sanguineo?",
+    "whatIsDesc": "A teoria originou-se no Japao e sugere que seu tipo sanguineo influencia sua personalidade e compatibilidade. Continua muito popular no Leste Asiatico.",
+    "whatIs1": "Popular no Japao, Coreia e Leste Asiatico",
+    "whatIs2": "Inclui tracos de personalidade, compatibilidade e carreira",
+    "whatIs3": "Ferramenta divertida de autoconhecimento, nao medica",
+    "traitsTitle": "Visao geral dos tracos por tipo sanguineo",
+    "traitsDesc": "Cada tipo sanguineo tem caracteristicas unicas. Tipo A organizados, B criativos, O lideres naturais e AB combina qualidades de ambos.",
+    "traits1": "Tipo A: Organizado, atencioso, perfeccionista, harmonioso",
+    "traits2": "Tipo B: Criativo, apaixonado, flexivel, independente",
+    "traits3": "Tipo O: Confiante, sociavel, lider, generoso",
+    "traits4": "Tipo AB: Racional, empatico, unico, adaptavel"
   }
 }

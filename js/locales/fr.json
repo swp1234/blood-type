@@ -90,5 +90,18 @@
     "result2": "Type B -- Esprit Libre",
     "result3": "Type O -- Le Leader Naturel",
     "result4": "Type AB -- Le Génie Rationnel"
+  },
+  "about": {
+    "whatIsTitle": "Qu'est-ce que la personnalité par groupe sanguin ?",
+    "whatIsDesc": "La théorie de la personnalité par groupe sanguin est née au Japon et suggère que votre groupe sanguin influence votre personnalité et votre compatibilité. Bien que non prouvée scientifiquement, elle reste très populaire en Asie de l'Est.",
+    "whatIs1": "Populaire au Japon, en Corée et en Asie de l'Est",
+    "whatIs2": "Couvre les traits de personnalité, la compatibilité amoureuse et la carrière",
+    "whatIs3": "Outil de découverte de soi amusant, non médical",
+    "traitsTitle": "Aperçu des traits par groupe sanguin",
+    "traitsDesc": "Chaque groupe sanguin est associé à des caractéristiques uniques. Le type A est organisé, le B créatif, le O un leader naturel et le AB combine les qualités des deux.",
+    "traits1": "Type A : Organisé, attentionné, perfectionniste, harmonieux",
+    "traits2": "Type B : Créatif, passionné, flexible, indépendant",
+    "traits3": "Type O : Confiant, sociable, orienté leadership, généreux",
+    "traits4": "Type AB : Rationnel, empathique, unique, adaptable"
   }
 }

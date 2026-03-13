@@ -62,6 +62,21 @@
     }
 }
     </script>
+    <!-- BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dopabrain.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Tests", "item": "https://dopabrain.com/portal/" },
+            { "@type": "ListItem", "position": 3, "name": "Personality Tests", "item": "https://dopabrain.com/portal/" },
+            { "@type": "ListItem", "position": 4, "name": "Blood Type Personality", "item": "https://dopabrain.com/blood-type/" }
+        ]
+    }
+    </script>
+
+    <!-- FAQPage -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -69,10 +84,10 @@
         "mainEntity": [
             {
                 "@type": "Question",
-                "name": "What does blood type reveal about personality?",
+                "name": "What is blood type personality theory?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Blood type personality theory suggests different blood types have distinct personality traits. Type A tends to be organized and anxious, Type B is creative and selfish, Type O is confident and insensitive, and Type AB is rational and indecisive."
+                    "text": "Blood type personality theory originated in Japan and suggests that your blood type (A, B, O, or AB) influences your personality traits, temperament, and compatibility with others. While not scientifically proven, it remains hugely popular in East Asian cultures for fun self-discovery."
                 }
             },
             {
@@ -80,7 +95,31 @@
                 "name": "Which blood types are compatible?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "In blood type personality compatibility, Type A is most compatible with A and AB, Type B with B and AB, Type O with O and AB, and Type AB is considered compatible with all blood types."
+                    "text": "In blood type personality compatibility, Type A is most compatible with A and AB, Type B with B and AB, Type O with O and AB, and Type AB is considered compatible with all blood types. These are based on personality theory, not medical compatibility."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is blood type personality scientifically proven?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Blood type personality theory is not supported by scientific evidence. Large-scale studies have found no significant correlation between blood type and personality traits. However, it remains a popular cultural belief in Japan and Korea, similar to zodiac signs in Western cultures."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What does my blood type say about me?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "According to the theory: Type A people are organized and considerate. Type B individuals are creative and free-spirited. Type O people are confident natural leaders. Type AB combines traits from both A and B, being rational yet emotional."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the personality traits of A, B, O, and AB blood types?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Type A: Organized, perfectionist, cooperative, anxious. Type B: Creative, passionate, selfish, optimistic. Type O: Confident, insensitive, leadership-oriented, outgoing. Type AB: Rational, indecisive, empathetic, unique. Each type has distinct strengths and areas for growth."
                 }
             }
         ]
@@ -376,6 +415,33 @@
 
     <script src="js/i18n.js"></script>
     <script src="js/app.js"></script>
+    <!-- About Section (SEO) -->
+    <section style="max-width:480px;margin:24px auto;padding:0 16px;" id="about-blood-type">
+        <details style="background:rgba(128,128,128,0.06);border:1px solid rgba(128,128,128,0.15);border-radius:12px;margin-bottom:12px;overflow:hidden;">
+            <summary style="padding:16px 20px;cursor:pointer;font-weight:700;font-size:15px;list-style:none;display:flex;justify-content:space-between;align-items:center;" data-i18n="about.whatIsTitle">What Is Blood Type Personality?</summary>
+            <div style="padding:0 20px 16px;font-size:14px;line-height:1.7;opacity:0.8;">
+                <p data-i18n="about.whatIsDesc">Blood type personality theory (ketsueki-gata) originated in Japan in the early 20th century and suggests that your blood type influences your personality, temperament, and compatibility with others. While not scientifically validated, it remains one of the most popular personality frameworks in East Asia, similar to how Western cultures use zodiac signs.</p>
+                <ul style="margin-top:8px;padding-left:20px;">
+                    <li data-i18n="about.whatIs1">Popular in Japan, Korea, and other East Asian countries</li>
+                    <li data-i18n="about.whatIs2">Covers personality traits, love compatibility, and career fit</li>
+                    <li data-i18n="about.whatIs3">Used for fun self-discovery, not medical purposes</li>
+                </ul>
+            </div>
+        </details>
+        <details style="background:rgba(128,128,128,0.06);border:1px solid rgba(128,128,128,0.15);border-radius:12px;overflow:hidden;">
+            <summary style="padding:16px 20px;cursor:pointer;font-weight:700;font-size:15px;list-style:none;display:flex;justify-content:space-between;align-items:center;" data-i18n="about.traitsTitle">Blood Type Traits Overview</summary>
+            <div style="padding:0 20px 16px;font-size:14px;line-height:1.7;opacity:0.8;">
+                <p data-i18n="about.traitsDesc">Each blood type is associated with distinct personality characteristics. Type A individuals are known for being organized and detail-oriented. Type B people are creative and free-spirited. Type O individuals are natural leaders with confidence. Type AB combines qualities from both A and B types, making them unique and versatile.</p>
+                <ul style="margin-top:8px;padding-left:20px;">
+                    <li data-i18n="about.traits1">Type A: Organized, considerate, perfectionist, harmonious</li>
+                    <li data-i18n="about.traits2">Type B: Creative, passionate, flexible, independent</li>
+                    <li data-i18n="about.traits3">Type O: Confident, outgoing, leadership-oriented, generous</li>
+                    <li data-i18n="about.traits4">Type AB: Rational, empathetic, unique, adaptable</li>
+                </ul>
+            </div>
+        </details>
+    </section>
+
     <!-- Related Articles & Portal Link -->
     <nav style="max-width:480px;margin:24px auto 0;padding:0 16px" aria-label="Related articles">
         <p style="font-size:13px;font-weight:600;margin-bottom:8px;opacity:0.6;text-align:center" data-i18n="nav.relatedArticles">📖 Related Articles</p>

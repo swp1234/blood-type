@@ -90,5 +90,18 @@
     "result2": "Tipe B -- Si Jiwa Bebas",
     "result3": "Tipe O -- Pemimpin Alami",
     "result4": "Tipe AB -- Jenius Rasional"
+  },
+  "about": {
+    "whatIsTitle": "Apa itu Kepribadian Golongan Darah?",
+    "whatIsDesc": "Teori kepribadian golongan darah berasal dari Jepang dan menyatakan bahwa golongan darah memengaruhi kepribadian dan kompatibilitas. Tetap sangat populer di Asia Timur.",
+    "whatIs1": "Populer di Jepang, Korea, dan Asia Timur",
+    "whatIs2": "Mencakup sifat kepribadian, kompatibilitas, dan karier",
+    "whatIs3": "Alat penemuan diri yang menyenangkan, bukan medis",
+    "traitsTitle": "Ikhtisar Sifat Golongan Darah",
+    "traitsDesc": "Setiap golongan darah dikaitkan dengan karakteristik unik. Tipe A terorganisir, B kreatif, O pemimpin alami, AB menggabungkan keduanya.",
+    "traits1": "Tipe A: Terorganisir, perhatian, perfeksionis, harmonis",
+    "traits2": "Tipe B: Kreatif, penuh semangat, fleksibel, mandiri",
+    "traits3": "Tipe O: Percaya diri, ramah, pemimpin, dermawan",
+    "traits4": "Tipe AB: Rasional, empatik, unik, adaptif"
   }
 }
